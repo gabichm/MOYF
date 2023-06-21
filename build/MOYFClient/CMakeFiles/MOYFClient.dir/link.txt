@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MOYFClient.dir/main.cpp.o -o MOYFClient  ../MOYFNetworking/libMOYFNetworking.a 

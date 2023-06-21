@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMOYFNetworking.a CMakeFiles/MOYFNetworking.dir/src/client/tcp_client.cpp.o CMakeFiles/MOYFNetworking.dir/src/server/tcp_connection.cpp.o CMakeFiles/MOYFNetworking.dir/src/server/tcp_server.cpp.o
+/usr/bin/ranlib libMOYFNetworking.a

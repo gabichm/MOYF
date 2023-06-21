@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MOYFServer.dir/main.cpp.o -o MOYFServer  ../MOYFNetworking/libMOYFNetworking.a 

@@ -1,0 +1,11 @@
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/CMakeFiles/edit_cache.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/CMakeFiles/rebuild_cache.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFNetworking/CMakeFiles/MOYFNetworking.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFNetworking/CMakeFiles/edit_cache.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFNetworking/CMakeFiles/rebuild_cache.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFClient/CMakeFiles/MOYFClient.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFClient/CMakeFiles/edit_cache.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFClient/CMakeFiles/rebuild_cache.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFServer/CMakeFiles/MOYFServer.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFServer/CMakeFiles/edit_cache.dir
+/home/gabi/Documents/studia_dump/studia/C++/projekt/MOYF/build/MOYFServer/CMakeFiles/rebuild_cache.dir
