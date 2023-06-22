@@ -56,12 +56,12 @@ void Tictactoe::move(std::string play) {
 //            break;
 //        default: std::cout << player2 << " where do you want to play? ";
 //    }
-    if(check_wrong_input(play)) return;
+    if(check_wrong_input(play)) { return;}
     std::pair<int,int> play_ = space(play);
     int play_i = play_.first;
     int play_j = play_.second;
     std::string& _play = board[play_i][play_j];
-    int play_int = std::stoi(_play);
+//    int play_int = std::stoi(_play);
     bool taken = false;
     if (_play == "00" || _play == "01" || _play == "02" || _play == "10" || _play == "11" || _play == "12" || _play == "20" || _play == "21" || _play == "22"){taken = true;}
     if (taken){
@@ -76,7 +76,8 @@ void Tictactoe::move(std::string play) {
     }
     else {
         std::cout << "This space is already taken, try again ";
-        move(play);
+        return;
+//        move(play);
     }
     print_board();
     int win = checking_for_win();

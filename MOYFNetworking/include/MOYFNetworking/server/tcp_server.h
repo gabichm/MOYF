@@ -28,6 +28,7 @@ namespace MOYF {
 
         int Run();
         void Broadcast(const std::string& message);
+//        void Stop();
     private:
         void startAccept();
 

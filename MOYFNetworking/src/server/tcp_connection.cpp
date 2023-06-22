@@ -16,6 +16,16 @@ namespace MOYF {
     }
 
     void TCPConnection::Start(MessageHandler&& messageHandler, ErrorHandler&& errorHandler) {
+        auto strongThis = shared_from_this();
+
+        boost::asio::async_write(_socket, boost::asio::buffer(init_message),
+                                 [strongThis](const boost::system::error_code& error, size_t bytesTransferred) {
+                                     if (error) {
+                                         std::cout << "Failed to send message!\n";
+                                     } else {
+                                         std::cout << "Sent " << bytesTransferred << " bytes of data!\n";
+                                     }
+                                 });
         _messageHandler = std::move(messageHandler);
         _errorHandler = std::move(errorHandler);
 
